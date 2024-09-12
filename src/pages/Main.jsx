@@ -382,7 +382,7 @@ const MainBox = styled.div`
         rgba(194, 24, 91, 1) 80%,
         rgba(156, 39, 176, 1) 100%
       );
-      -webkit-text-fill-color: transparent;
+      color: transparent;
       background-clip: text;
       display: flex;
       align-items: center;
