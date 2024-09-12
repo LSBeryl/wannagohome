@@ -7,3 +7,7 @@ body {
   margin: 0;
   background: #00000005;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}

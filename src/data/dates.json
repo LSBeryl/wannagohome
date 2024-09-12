@@ -1,1 +1,19 @@
-["2024-09-13", "2024-09-21", "2024-09-28"]
+[
+  { "date": "2024-09-13", "isAll": true },
+  { "date": "2024-09-21", "isAll": false },
+  { "date": "2024-09-28", "isAll": false },
+  { "date": "2024-10-02", "isAll": true },
+  { "date": "2024-10-12", "isAll": false },
+  { "date": "2024-10-19", "isAll": false },
+  { "date": "2024-10-26", "isAll": false },
+  { "date": "2024-11-02", "isAll": false },
+  { "date": "2024-11-08", "isAll": false },
+  { "date": "2024-11-16", "isAll": false },
+  { "date": "2024-11-21", "isAll": true },
+  { "date": "2024-11-30", "isAll": false },
+  { "date": "2024-12-07", "isAll": false },
+  { "date": "2024-12-13", "isAll": true },
+  { "date": "2024-12-21", "isAll": false },
+  { "date": "2024-12-28", "isAll": false },
+  { "date": "2024-12-31", "isAll": true }
+]
