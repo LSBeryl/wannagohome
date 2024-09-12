@@ -433,7 +433,7 @@ const MainBox = styled.div`
 `;
 
 const MenuTitle = styled.div`
-  width: 15vw;
+  width: 18vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -442,7 +442,7 @@ const MenuTitle = styled.div`
     cursor: pointer;
   }
   @media (max-width: 1024px) {
-    width: 25vw;
+    width: 28vw;
   }
   @media (max-width: 768px) {
     width: 80vw;
