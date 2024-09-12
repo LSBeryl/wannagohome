@@ -97,7 +97,7 @@ export default function Main() {
       );
       setExamsState((prev) => [...prev]);
       setHomeTimeDate(homeTimeString);
-    }, 100);
+    }, 10);
     return () => {
       clearInterval(countInterval);
     };
