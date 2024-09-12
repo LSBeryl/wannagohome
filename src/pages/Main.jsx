@@ -458,6 +458,7 @@ const Grade = styled.div`
     padding: 0.2rem 0.5rem;
     border-radius: 0.2rem;
     box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.25);
+    background: #fff;
   }
 `;
 
@@ -508,13 +509,13 @@ const Box = styled.div`
         props.small
           ? css`
               font-size: 1.5rem;
-              @media (max-width: 400px) {
+              @media (max-width: 575px) {
                 font-size: 1.2rem;
               }
             `
           : css`
               font-size: 2rem;
-              @media (max-width: 400px) {
+              @media (max-width: 575px) {
                 font-size: 1.5rem;
               }
             `}
