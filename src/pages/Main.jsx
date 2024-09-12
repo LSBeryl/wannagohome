@@ -382,8 +382,9 @@ const MainBox = styled.div`
         rgba(194, 24, 91, 1) 80%,
         rgba(156, 39, 176, 1) 100%
       );
-      color: transparent;
+      -webkit-text-fill-color: transparent;
       background-clip: text;
+      -webkit-background-clip: text;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -418,7 +419,7 @@ const MainBox = styled.div`
             font-size: 2rem;
           }
           @media (max-width: 575px) {
-            font-size: 1.7rem;
+            font-size: 1.5rem;
           }
         }
       }
@@ -507,13 +508,13 @@ const Box = styled.div`
         props.small
           ? css`
               font-size: 1.5rem;
-              @media (max-width: 575px) {
+              @media (max-width: 400px) {
                 font-size: 1.2rem;
               }
             `
           : css`
               font-size: 2rem;
-              @media (max-width: 575px) {
+              @media (max-width: 400px) {
                 font-size: 1.5rem;
               }
             `}
