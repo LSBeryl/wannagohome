@@ -111,7 +111,11 @@ export default function Main() {
           집에 가고 싶어요
         </div>
         <div>
-          집에 가고 싶은 디미고인들을 위한 귀가 타이머. 그래도 집은 못 감 ㅋ
+          집에 가고 싶은{" "}
+          <a href="https://namu.wiki/w/%EB%85%B8%EC%98%88" target="_blank">
+            디미고인
+          </a>
+          들을 위한 귀가 타이머. 그래도 집은 못 감 ㅋ
         </div>
       </Title>
       <MainBox>
@@ -302,6 +306,9 @@ const Title = styled.div`
       font-size: 0.8rem;
       font-weight: 300;
       color: #888;
+      & > a {
+        color: #888;
+      }
       @media (max-width: 768px) {
         font-size: 0.7rem;
       }
@@ -363,14 +370,14 @@ const MainBox = styled.div`
           }
         }
         &:nth-child(2) {
-          font-size: 0.9rem;
+          font-size: 0.8rem;
           color: #aaa;
           font-weight: 200;
           @media (max-width: 768px) {
-            font-size: 0.8rem;
+            font-size: 0.7rem;
           }
           @media (max-width: 435px) {
-            font-size: 0.6rem;
+            font-size: 0.5rem;
           }
         }
       }
