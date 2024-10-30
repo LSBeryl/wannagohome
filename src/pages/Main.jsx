@@ -515,15 +515,15 @@ const Box = styled.div`
       ${(props) =>
         props.small
           ? css`
-              font-size: 1.5rem;
+              font-size: 1.3rem;
               @media (max-width: 575px) {
-                font-size: 1.2rem;
+                font-size: 1rem;
               }
             `
           : css`
-              font-size: 2rem;
+              font-size: 1.8rem;
               @media (max-width: 575px) {
-                font-size: 1.5rem;
+                font-size: 1.3rem;
               }
             `}
     }
